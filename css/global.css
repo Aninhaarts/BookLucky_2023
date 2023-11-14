@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  
+}
+
+
+
+/* --- Header --- */
+
+.header-container {
+  width: 100%;
+  margin-top: 35px;
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content .logo {
+  font-family: 'Yellowtail';
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(250, 133, 94);
+
+  padding: 0 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-content a:hover {
+  opacity: 0.7;
+}
+
+.header-content .nav-list a {
+  color: rgba(252, 252, 252, 0.904);
+  font-size: 14px;
+  font-family: 'Yellowtail';
+  font-weight: 600;
+  transition: 0.4s;
+  padding-right: 2px;
+  letter-spacing: 4px;
+  text-decoration: wavy;
+  text-transform: uppercase;
+
+  display: flex;
+}
+
+.header-content .nav-list a:hover {
+  color: #fff;
+}
+
+.header-content .nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.header-content .nav-list li {
+  display: flex;
+  margin-right: 55px;
+}
+
+.header-content .nav-list li img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+/* --- Main --- */
+
+main.main-container {
+  height: 100vh;
+}
+
+/* --- Footer --- */
+
+footer.footer-container {
+  background-color: rgb(4, 129, 108);
+  padding: 30px 0;
+}
+
+.footer-content {
+  max-width: 1400px;
+  padding: 0 4px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content div h4 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-family: 'Yellowtail';
+}
+
+.footer-content div ul li {
+  margin: 5px 0 0 0;
+}
+
+.footer-content div ul li a {
+  font-size: 16px;
+  display: block;
+  font-weight: 300;
+  color: antiquewhite;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  font-family: 'Yellowtail';
+}
+
+.footer-content div ul li a:hover {
+  color: bisque;
+  padding-left: 5px;
+}

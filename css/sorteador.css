@@ -1,0 +1,190 @@
+html {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  body {
+      align-content: center;
+      text-align: center;
+      justify-content: center;
+      font-family: 'Rammetto One', cursive;
+      font-weight: 400;    
+      background: url('../assets/Farytale\ forest.jpg') no-repeat;
+      background-size: cover;
+      text-transform: uppercase;
+      backdrop-filter: blur(2px);
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+
+  
+  #git-img, #cpen-img, #lkdin-img {
+    width: 1.2rem;
+  }
+  
+  #git-img:hover {
+    content: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png);
+    cursor: help;
+  }
+  
+  #cpen-img:hover {
+    content: url(https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Codepen-512.png);
+    cursor: help;
+  }
+  
+  #lkdin-img:hover {
+    content: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png);
+    cursor: help;
+  }
+  
+  fieldset {
+      border: none;
+      
+  }
+  
+  h1, footer {
+      margin-top: 50px;
+  }
+  
+  h1 {
+    font-size:4vw;
+    font-size-adjust: inherit;
+  }
+  
+  input {
+      border-radius: 40px 50px;
+      font-size: 130%;
+      border: 5px solid;
+      border-color: #7B2869;
+      background-color: beige;
+      font-family: 'Rammetto One', cursive; 
+      color: #7B2869;
+      margin-top: 25%;
+  }
+  
+  input:focus {
+      border: 5px solid;
+      outline: none;
+      border-color: #FFBABA;
+      opacity: 1;
+      transform: scale(1); 
+      background-color: rgb(243, 243, 209);  
+      font-family: 'Rammetto One', cursive; 
+      color: #5f1b50;
+  }
+  
+  ::placeholder {
+      font-size: small;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  button {
+
+      border-radius: 40px 50px;
+      background-image: repeating-radial-gradient(#A31ACB, #FFBABA);
+      border-color: #7B2869;
+      color: #FDEBED;
+      font-size: 20px;
+  }
+  
+  button:hover {
+      background-image: url(../assets/Farytale\ forest.jpg);
+      
+  }
+  
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
+    
+    @-webkit-keyframes animatebottom {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes animatebottom { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0; opacity:1 }
+    }
+    
+    #winner {
+      font-weight: 900;
+      font-size: larger;
+      -webkit-text-stroke: 1px rgb(172, 5, 172);
+      display: none;
+      text-align: center;
+      
+    }
+  
+    #reload-btn {
+      opacity: 0;
+      margin-top: 100px;
+      -webkit-animation-name: reloadpage;
+      -webkit-animation-duration: 1s;
+      animation-name: reloadpage;
+      animation-duration: 1s
+    }
+  
+    #contenders, #result, #run-event {
+      opacity: 0;
+      -webkit-text-stroke: 1px rgb(172, 5, 172);
+    }
+  
+    #lista {
+      color: #ffffff;
+    }
+  
+    @-webkit-keyframes reloadpage {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes reloadpage { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0; opacity:1 }
+    }
+  
+    .h1-random {
+      
+      font-size: 95px;
+      color: rgb(72, 22, 110);
+  
+    }
+  
+  @media screen and (max-width: 400px) {
+      header {
+        max-width: 150px;
+        align-items: center;
+        display: flex;
+        margin: auto auto auto 60px;
+        
+      }
+      .h1-random {
+          font-size: 2rem;
+      }
+ .main-button {
+  margin-right: 50%;
+ }
+ #result{
+  color: #FDEBED;
+ }
+      
+ }
+ .home img {
+  size: 10px;
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+  

@@ -1,0 +1,84 @@
+body {
+    background-image: url("../assets/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    
+  }
+  h1 {
+    color: rgb(132, 194, 255);
+    text-align: center;
+  }
+  
+  p {
+    /* color: rgb(101, 1, 1); */
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+    line-height: 1.4;
+    /* Espaçamento do texto */
+  
+  }
+  
+  .text2 {
+    align-items: flex-start;
+    margin-top: 40px ;
+    width: 450px;
+    align-self: flex-start;
+    /* margin-right: 65rem; */
+    padding: 3px;
+    /* margin-right: 880px; */
+  }
+
+  
+/*                                              */
+  main.main-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-content {
+    position: relative;
+    width: 550px;
+    height: 450px;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255, 255,0.5 );
+    border-radius: 28px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+  }
+  
+  .main-content h1 {
+    margin-bottom: 16px;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    /*Quebra o conteúdo sempre de lado*/
+    justify-content: space-evenly;
+    padding-bottom: 45px;
+    background-color: transparent;
+    backdrop-filter: blur(16px);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .conteudo-direito img{
+    width: 360px;
+   /* margin-left: 60rem; */
+  }
+
+body { overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.home img {
+  size: 10px;
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}

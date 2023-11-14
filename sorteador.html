@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <!-- página criada para geração de sorteios - desenvolvida por Felipe Garcia Marçal -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="./css/sorteador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="./assets/book-stack.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <div class="fundo">
+        <h1 class="h1-random">Sorteie sua próxima leitura📖</h1>
+    
+   
+    <main>
+        <div>
+            <fieldset>
+                               
+                    <input type="text" name="input-list-generator" id="input-list" placeholder="Nome do livro">
+                    
+                    <button class="button" id="add-btn" type="button" onclick=clickMe()>inserir</button>
+                    <button type="reset" onclick=resetBtn()>limpar</button>
+                    
+              
+            </fieldset>
+        
+        </div>
+    </header>
+    </div>
+        <div class="tabela">
+            <h2 id="contenders">Suas Escolhas:</h2>
+    
+                <ul id="lista">
+                    
+                </ul>
+  
+        </div>
+
+        <div>
+            <h2 id="result">CLIQUE PARA SORTEAR</h2>
+            <button id="run-event" type="button" onclick=randomGen()>sortear</button>
+        </div>
+        <div id="win"></div>
+        
+        <div id="reload"></div>
+        <div class="home">
+            <a href="./index.html"><img src="./assets/stump-house.png" alt="casa"></a>
+    </div>
+       
+    </main>
+   <!----<div class="main-button">
+        <button>
+            <img src="bookshelf.png" alt="">
+        </button>
+    </div>--> 
+
+    <footer>
+        
+        <a href="https://github.com/fgmarcal" target="_blank">
+            <img id="git-img" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-outline-512.png" alt="github image" title="Visit my Github page"></a>
+            <a href="https://codepen.io/fgmarcal/" target="_blank">
+            <img id="cpen-img" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png" alt="code pen image" title="Visit my Codepen page"></a>
+            <a href="https://www.linkedin.com/in/felipegmarcal" target="_blank">
+            <img id="lkdin-img" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-512.png" alt="linkedin image" title="Visit my LinkedIn"></a>
+    </footer>
+    <script src="./js/sorteador.js"></script>
+</body>
+</html>
